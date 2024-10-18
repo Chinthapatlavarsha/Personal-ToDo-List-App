@@ -1,0 +1,5 @@
+import json
+
+# Create an empty tasks.json file
+with open('tasks.json', 'w') as f:
+    json.dump([], f)  # Initialize with an empty list
